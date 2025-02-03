@@ -3,7 +3,7 @@ let xpHeroi = 1000
 const mensagem = "O Heroi de nome "
 const mensagem2 = " Está no nível de "
 
-if(xpHeroi<1000){
+if(xpHeroi<=1000){
     console.log(mensagem + nomeHeroi + mensagem2 + "Ferro")}
     else if (xpHeroi>1000 && xpHeroi<=2000){
         console.log(mensagem + nomeHeroi + mensagem2 + "Bronze")}
